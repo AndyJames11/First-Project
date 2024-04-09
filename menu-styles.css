@@ -140,8 +140,20 @@ footer {
   text-decoration: none;
 }
 
-.socials a:hover {
+/* .socials a:hover {
   color: #007bff;
+} */
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.github:hover {
+  color: rgb(230, 230, 37);
+}
+
+.youtube:hover {
+  color: red;
 }
 
 footer ul {

@@ -156,9 +156,21 @@ footer {
   text-decoration: none;
 }
 
-.socials a:hover {
-  color: #007bff;
+.linkedin:hover {
+  color: #0077b5;
 }
+
+.github:hover {
+  color: rgb(230, 230, 37);
+}
+
+.youtube:hover {
+  color: red;
+}
+
+/* .socials a:hover {
+  color: #007bff;
+} */
 
 footer ul {
   display: inline;
