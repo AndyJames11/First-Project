@@ -1,110 +1,180 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Andrew Harvey's Portfolio Website
 
-Welcome Andrew Harvey,
+[View the live project here.](https://github.com/AndyJames11/First-Project)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website is for my Milestone 1 project in my Web Development course with CodeInstitute. I decided to create a portfolio site which simply has some details about me, my CV, and some other things e.g. a simple Cafe Menu page, a link to my Discord Bot which I developed in JavaScript, and some pictures of my cup final game.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# User Experience (UX)
 
-## Gitpod Reminders
+* ##  User Stories
+    * #### First time visitor goals
+        * As a first time visitor, I want to be able to clearly see what I am looking at. I want to be able to understand what the website is for and would like the page to be interesting.
+        * As a first time visitor, I want to be able to easily navigate through the website and find the pages and information I am looking for without any difficulty.
+        * As a first time user, I want to be able to find more information about the developer. I want to see social media links so that I can understand who built the site and what type of person they are.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    * #### Returning visitor goals
+        * As a returning visitor, I want to find contact information for the developer so I can get in touch with them if I have any questions.
+        * As a returning visitor, I want to see if the developer is looking for work.
 
-`python3 -m http.server`
+    * #### Frequent visitor goals
+        * As a frequent visitor, I want to see if there are any newly added pages or features.
+        * As a frequent visitor, I want to see if there have been any new photos added or updates to the Discord Bot.
 
-A blue button should appear to click: _Make Public_,
+* ## Design
+    * #### Colour Scheme
+        * The main colours used in my portfolio are black and white. I think these colours look very sleek and modern and they tend to be very easy to read.
+    
+    * #### Typography
+        * The fonts used in my portfolio are Lato and Oswald. Lato is the main font used, with some headers and the 'My Projects' logo using Oswald. I like both of these fonts and I think they are eye catching but also very clean and easy to read.
 
-Another blue button should appear to click: _Open Browser_.
+    * #### Imagery
+        * I think the main image is very important for a webpage. It needs to grab the attention of the user without being too distracting from the content. For my landing page, I have chosen to use a picture of myself at a football match as I like the colours and makes gives the page feel warm. It also shows what I look like which is useful for recruiters, and it shows me doing a hobby so you get an idea about my personality. For the cafe page, I opted to use a minimalist, slightly blurred, real cafe image as I think it looks very modern and clean.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    * #### Wireframes
+        * Home page wireframe - [View](link)
+        * About me page wireframe - [View](link)
+        * Cafe page wireframe - [View](link)
+        * My Discord Bot page wireframe - [View](link)
+        * Cup Final Gallery page wireframe - [View](link)
 
-A blue button should appear to click: _Make Public_,
+# Features
+* #### Navbars
+* #### Responsive when page is shrunk
+* #### Links to socials and to other Github projects
+* #### Downloadable CV
 
-Another blue button should appear to click: _Open Browser_.
+# Technologies Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Languages Used
+* #### [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* #### [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-To log into the Heroku toolbelt CLI:
+## Frameworks, Libraries & Programs Used
+* #### [FontAwesome](https://fontawesome.com/)
+    * #### FontAwesome was used to add the icons for my social links in the footer of the pages.
+* #### [Google Fonts](https://fonts.google.com/)
+    * #### Google Fonts were used to import the 'Lato' and 'Oswald' fonts into the CSS files. The fonts were used throughout the project.
+* #### [Git](https://git-scm.com/)
+    * #### Git was used for version control by utilizing Gitpod terminal to commit to Git and Push to GitHub.
+* #### [GitHub](https://www.github.com/)
+    * #### GitHub is used to store the project's code after being pushed from Git. It is also used to store the repo for my Discord Bot which is linked in the website.
+* #### [ReplIt](https://replit.com/)
+    * #### ReplIt was used to build the early versions of the webpage. The majority of the landing page was built in ReplIt until I switched over to CodeAnywhere as was suggested by CodeInstitute.
+* #### [CodeAnywhere](https://codeanywhere.com/)
+    * #### CodeAnywhere was used breifly to begin designing the Cafe page, however I ran out of development hours and so it was suggested by a CodeInstitute tutor that I switch to GitPod.
+* #### [GitPod](https://www.gitpod.io/)
+    * #### GitPod is the program I am using now for all of my coding for this project. It uses VS Code as its IDE and links to GitHub for code commits and pushing code.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Further Testing
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+-   The Website was tested on Google Chrome, Internet Explorer, Opera and Microsoft Edge.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 15 Pro and iPhone 13.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and colleagues were asked to review the site and point out any bugs.
 
-------
+### Known Bugs
 
-## Release History
+-   On some mobile devices, the floating text on the landing/home page covers a small part of the top Navbar.
+-   On some mobile devices, scrolling down on the landing/home page can result in being unable to scroll back up the page.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Deployment
 
-**September 20 2023:** Update Python version to 3.9.17.
+### GitHub Pages
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The project was deployed to GitHub Pages using the following steps...
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/AndyJames11/First-Project)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "Pages" Section.
+4. Under "Source", click the dropdown called "Deploy from a branch" and select "main".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://andyjames11.github.io/First-Project/) in the "GitHub Pages" section.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Forking the GitHub Repository
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/AndyJames11/First-Project)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Making a Local Clone
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+$ git clone https://github.com/AndyJames11/First-Project.git
 ```
 
-**Anything more?**
+7. Press Enter. Your local clone will be created.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+```
+$ git clone https://github.com/AndyJames11/First-Project.git
+> Cloning into `First-Project-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
----
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-Happy coding!
+## Credits
+
+### Code
+
+-   The full-screen hero image and navbar code came from the LoveRunning activity in CodeInstitute
+
+-   [CodeInstitute README.md sample](https://github.com/Code-Institute-Solutions/SampleREADME?tab=readme-ov-file) was very useful when writing this README file as it gave me prompts as to what I should add, and showed a good way of formatting the content. 
+
+-   All content was written by me with some snippets of code coming from [Stack Overflow](https://www.stackoverflow.com) and [W3schools](https://www.w3schools.com). The code used was then edited with parts added/changed. Code that remains unchanged is shown below:
+
+1.
+```
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+```
+
+2.  [This code](https://www.w3schools.com/howto/howto_css_two_columns.asp). Most of this has been edited, but the code that remains is:
+```
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+``` 
+and
+```
+<div class="row">
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
+```
+
+### Media
+
+-   The image used in the landing/home page is of me from a charity football match. Photo was taken by a friend. [Link to full size image](https://live.staticflickr.com/65535/53616615688_5a3a394b10_k.jpg).
+
+-   The image used in the Cafe page was taken by Petr Sevcovic and was downloaded from Unsplash [here](https://unsplash.com/photos/people-inside-cafe-qE1jxYXiwOA)
+
+-   The images used in the Gallery page were taking from our cup final on the 5th April 2024. [This is the cameraman's twitter post](https://twitter.com/localbusdriver/status/1776556651157377437?s=46&t=JTqdeutd6qOx9ci-LK-KuQ) and [this is the link to the original photos.](https://www.flickr.com/photos/localbusdriver/albums/72177720316042414)
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   [W3schools.com](W3schools.com) and [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web) as I used both countless times to gain a better understanding of things such as background-position, floats, flexboxes etc.
+
+-   Google was incredibly helpful for very specific things that I got stuck on during the project. I had to use Google many times to figure out why my code was not working or to figure out how to perform an action in CSS.
+
+-   Tutor support at Code Institute for their support.
