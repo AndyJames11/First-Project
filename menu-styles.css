@@ -59,3 +59,38 @@ h2 {
 .active{
   border-bottom: 1px solid #000000;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.socials a {
+  color: white;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  color: #007bff;
+}
+
+footer ul {
+  display: inline;
+}
+
+footer li {
+  margin: 10px;
+  text-align: center;
+  display: inline;
+  left: 0;
+  right: 0;
+}
+
+.copyright {
+  float: right;
+  margin-right: 10px;
+  color: white;
+  pointer-events: none;
+}
