@@ -13,7 +13,7 @@ body {
 
 #hero-image{
   width: 100%;
-  height: 82vh;
+  height: 87vh;
   background: url("cafe-page.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,6 +72,74 @@ body {
   text-shadow: 0 0 10px black;
 }
 
+.booking {
+  border: solid 4px white;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.25);
+  color: white;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  text-shadow: inherit;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
+  padding: 8px 12px 12px 12px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#location {
+  font-family: Oswald;
+  position: absolute;
+  text-align: center;
+  top: 90vh;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  font-weight: 600;
+  text-shadow: 0 0 10px black;
+}
+
+@media (max-width:758px)  {
+  #location {
+    top: 85vh;
+  }
+}
+
+@media (max-width:420px)  {
+  #location {
+    top: 80vh;
+  }
+}
+
+@media (max-width:283px)  {
+  #location {
+    top: 83vh;
+    font-size: x-large;
+  }
+
+  .cafe-title {
+    font-size: x-large;
+  }
+}
+
+@media (max-width:215px)  {
+  #location {
+    top: 80vh;
+    font-size: x-large;
+  }
+
+  .cafe-title {
+    font-size: x-large;
+  }
+
+  .booking {
+    font-size: large;
+  }
+}
+
 .menu-items {
   width: 100%;
   text-align: center;
@@ -88,7 +156,7 @@ body {
 
 .row {
   display: flex;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 .column {
@@ -127,21 +195,18 @@ span {
     height: 290px;
   }
 }
-
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 3.5%;
+  height: 45px;
   background-color: black;
-  font-size: 140%;
-  padding-top: 2.5px;
+  font-size: 135%;
 }
 
 .socials {
   list-style: none;
   float: left;
-  left: 0;
 }
 
 .socials a {
@@ -161,13 +226,8 @@ footer {
   color: red;
 }
 
-footer ul {
-  display: inline;
-}
-
 footer li {
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 10px 10px 10px 15px;
 }
 
 .copyright {
@@ -175,4 +235,5 @@ footer li {
   color: white;
   pointer-events: none;
   list-style: none;
+  margin-right: 10px;
 }
