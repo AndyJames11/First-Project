@@ -2,7 +2,7 @@
 
 [View the live project here.](https://github.com/AndyJames11/First-Project)
 
-This website is for my Milestone 1 project in my Web Development course with CodeInstitute. I decided to create a portfolio site which simply has some details about me, my CV, and some other things e.g. a simple Cafe Menu page, a link to my Discord Bot which I developed in JavaScript, and some pictures of my cup final game.
+This website is for my Milestone 1 project in my Web Development course with CodeInstitute. I decided to create a portfolio site which has a simple landing page, a Cafe style website, and a gallery of photos from my recent cup final football match. The purpose of the site is purely to demonstrate my different skills and I have tried to showcase a variety of different elements and styles in order to show what I am capable of to any potential recruiters down the line. In the future I plan to add some more pages to the site for example, one page dedicated to showing off my Discord Bot which I built in JavaScript, and another page with some basic details about me and a link to my CV.
 
 # User Experience (UX)
 
@@ -18,7 +18,7 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 
     * #### Frequent visitor goals
         * As a frequent visitor, I want to see if there are any newly added pages or features.
-        * As a frequent visitor, I want to see if there have been any new photos added or updates to the Discord Bot.
+        * As a frequent visitor, I want to see if the developer is still open to work.
 
 * ## Design
     * #### Colour Scheme
@@ -32,16 +32,15 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 
     * #### Wireframes
         * Home page wireframe - [View](link)
-        * About me page wireframe - [View](link)
         * Cafe page wireframe - [View](link)
-        * My Discord Bot page wireframe - [View](link)
         * Cup Final Gallery page wireframe - [View](link)
 
 # Features
-* #### Navbars
+* #### Navbars and footers
 * #### Responsive when page is shrunk
-* #### Links to socials and to other Github projects
-* #### Downloadable CV
+* #### Button that links to a booking form page
+* #### Gallery of photos taken at football match with links to the actual image page on flickr
+* #### Links to socials and to other Github projects in footer
 
 # Technologies Used
 
