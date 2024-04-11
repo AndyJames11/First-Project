@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
@@ -26,7 +26,7 @@ h2 {
   text-shadow: black 0 0 10px;
 }
 
-#menu {
+#navbar {
   font-size: 110%;
   list-style-type: none;
   letter-spacing: 4px;
@@ -36,36 +36,36 @@ h2 {
   height: 80px;
 }
 
-#logo, #menu{
+#logo,
+#navbar {
   line-height: 75px;
 }
 
-#menu li {
+#navbar li {
   float: right;
   margin-right: 30px;
 }
 
-#menu a {
+#navbar a {
   text-decoration: none;
   color: inherit;
 }
 
-#menu a:hover{
+#navbar a:hover {
   border-bottom: 1px solid #ffffff;
 }
 
-.active{
+.active {
   border-bottom: 1px solid #ffffff;
 }
 
-#hero-image{
+#hero-image {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-  background: url("https://live.staticflickr.com/65535/53616615688_5a3a394b10_k.jpg") no-repeat 30% 50%/cover;
+  background: url("home-page.webp") no-repeat 30% 50%/cover;
   overflow: hidden;
   position: absolute;
-  background-attachment: fixed;
 }
 
 #cover-text {
@@ -93,7 +93,7 @@ h2 {
     font-size: 180%;
     width: 500px;
     height: 120px;
-    top: 25%;
+    top: 20%;
   }
 }
 
@@ -104,11 +104,12 @@ h2 {
     width: 400px;
     height: 90px;
     right: 10%;
+    top: 20%
   }
 
-  #menu {
+  /* #menu {
     height: 160px;
-  }
+  }*/
 }
 
 @media (max-width: 855px) {
@@ -116,28 +117,20 @@ h2 {
     font-size: 100%;
     width: 360px;
     height: 70px;
-    top: 35%;
+    top: 15%;
   }
 }
 
 @media (max-width: 652px) {
-#menu {
+  /* #menu {
   height: 240px;
-  }
+  } */
 }
 
 @media (max-width: 563px) {
-  #menu {
+  /* #menu {
     height: 290px;
-  }
-
-  #hero-image {
-    background-attachment: fixed;
-  }
-
-  #cover-text {
-    top: 45%;
-  }
+  } */
 }
 
 span {
@@ -148,7 +141,17 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 3.5%;
   background-color: black;
+  font-size: 140%;
+  padding-top: 2.5px;
+  padding-bottom: 2px;
+}
+
+.socials {
+  list-style: none;
+  float: left;
+  left: 0;
 }
 
 .socials a {
@@ -168,10 +171,6 @@ footer {
   color: red;
 }
 
-/* .socials a:hover {
-  color: #007bff;
-} */
-
 footer ul {
   display: inline;
 }
@@ -179,14 +178,11 @@ footer ul {
 footer li {
   margin-left: 10px;
   margin-right: 10px;
-  float: left;
-  display: inline;
-  left: 0;
 }
 
 .copyright {
   float: right;
-  margin-right: 10px;
   color: white;
   pointer-events: none;
+  list-style: none;
 }

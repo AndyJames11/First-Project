@@ -132,17 +132,21 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 3;
   background-color: black;
+  font-size: 110%;
+}
+
+.socials {
+  list-style: none;
+  float: left;
+  left: 0;
 }
 
 .socials a {
   color: white;
   text-decoration: none;
 }
-
-/* .socials a:hover {
-  color: #007bff;
-} */
 
 .linkedin:hover {
   color: #0077b5;
@@ -163,14 +167,11 @@ footer ul {
 footer li {
   margin-left: 10px;
   margin-right: 10px;
-  float: left;
-  display: inline;
-  left: 0;
 }
 
 .copyright {
   float: right;
-  margin-right: 10px;
   color: white;
   pointer-events: none;
+  list-style: none;
 }
