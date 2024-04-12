@@ -184,8 +184,8 @@ label {
 
 input, select {
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 18px 20px;
+  margin: 12px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -196,7 +196,7 @@ input[type=submit] {
   width: 100%;
   background-color: #000000;
   color: white;
-  padding: 14px 20px;
+  padding: 18px 20px;
   margin: 12px 0;
   border: none;
   border-radius: 4px;
@@ -214,6 +214,12 @@ input[type=submit]:hover {
   .booking-form h1 {
     visibility: hidden;
   }
+}
+
+@media (max-width: 600px) {
+    input {
+        padding: 18px 40px;
+    }
 }
 
 
