@@ -39,6 +39,7 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 * #### Navbars and footers
 * #### Responsive when page is shrunk
 * #### Button that links to a booking form page
+* #### Booking form with mutliple input types, all required with submit button that links to booking confirmation page
 * #### Gallery of photos taken at football match with links to the actual image page on flickr
 * #### Links to socials and to other Github projects in footer
 
@@ -71,10 +72,22 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and colleagues were asked to review the site and point out any bugs.
 
+### Performance Optimisation
+
+-   Images used have been scaled down in order to reduce load times. Original photos are 25-50% higher resolution than the ones used in the website. Also converted image type to .webp which helps speed up loading time.
+-   Deferred loading of AwesomeFont script using **async** which increases loading speed of the website.
+-   Preloaded images as a priority to further reduce load times.
+-   Use of Chrome's built in Lighthouse feature to check performance of each page ensuring over 95% performance on all pages. 
+
+### Code Testing using W3 Validation Service for [HTML](https://validator.w3.org/#validate_by_input) and [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+-   
+
 ### Known Bugs
 
--   On some mobile devices, the floating text on the landing/home page covers a small part of the top Navbar.
+-   On some mobile devices, the floating text on the landing/home page covers a small part of the top Navbar. **FIXED 12/04/2022**
 -   On some mobile devices, scrolling down on the landing/home page can result in being unable to scroll back up the page.
+-   Booking form can be difficult to use on very small devices.
 
 ## Deployment
 
@@ -162,9 +175,11 @@ and
 
 ### Media
 
--   The image used in the landing/home page is of me from a charity football match. Photo was taken by a friend. [Link to full size image](https://live.staticflickr.com/65535/53616615688_5a3a394b10_k.jpg).
+-   The image used in the landing/home page is of me from a charity football match. Photo was taken by a friend. [Link to full size image.](https://live.staticflickr.com/65535/53616615688_5a3a394b10_k.jpg)
 
--   The image used in the Cafe page was taken by Petr Sevcovic and was downloaded from Unsplash [here](https://unsplash.com/photos/people-inside-cafe-qE1jxYXiwOA)
+-   The image used in the Cafe page was taken by Petr Sevcovic and was downloaded from Unsplash [here.](https://unsplash.com/photos/people-inside-cafe-qE1jxYXiwOA)
+
+-   The image used in the Booking and Confirmation pages was uploaded as free-to-use to Pixabay. Link to the original picture is [here.](https://www.pexels.com/photo/black-rules-note-beside-white-coffee-cup-459458/)
 
 -   The images used in the Gallery page were taking from our cup final on the 5th April 2024. [This is the cameraman's twitter post](https://twitter.com/localbusdriver/status/1776556651157377437?s=46&t=JTqdeutd6qOx9ci-LK-KuQ) and [this is the link to the original photos.](https://www.flickr.com/photos/localbusdriver/albums/72177720316042414)
 
