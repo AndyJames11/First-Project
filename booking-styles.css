@@ -182,6 +182,11 @@ label {
   text-shadow: 0 0 10px black;
 }
 
+.form-group {
+  width: 200%;
+  transform: translateX(-25%);
+}
+
 input, select {
   width: 100%;
   padding: 18px 20px;
@@ -216,10 +221,29 @@ input[type=submit]:hover {
   }
 }
 
-@media (max-width: 600px) {
-    input {
-        padding: 18px 40px;
-    }
+@media (max-height: 667px) {
+  input, select {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+
+  label {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  input, select {
+    width: 100%;
+  }
+
+  .form-group {
+    width: 100%;
+    transform: translateX(0);
+  }
+
 }
 
 
