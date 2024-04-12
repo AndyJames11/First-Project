@@ -66,6 +66,90 @@ h2 {
   position: absolute;
 }
 
+/* COLLAPSIBLE MENU */
+
+.menu-content {
+  font-family: Lato;
+  padding: 0 0 0 0px;
+}
+
+.collapsible-menu {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left: 300px;
+  top: 15px;
+  z-index: 100;
+}
+
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.collapsible-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.collapsible-menu a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.collapsible-menu a:hover {
+  text-decoration: underline;
+}
+
+.collapsible-menu label {
+  font-family: Lato;
+  font-size: 35px;
+  cursor: pointer;
+  position: fixed;
+}
+
+input#menu {
+  display: none;
+}
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  font-family: Lato;
+  padding-top: 35px;
+}
+
+input:checked~.menu-content {
+  max-height: 100%;
+  background-color: black;
+}
+
+/* COLLAPSIBLE MENU MEDIA QUERIES */
+@media (min-width: 780px) {
+  .collapsible-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 779px) {
+  #home {
+    display: none;
+  }
+}
+
+@media (max-width: 689px) {
+  #cafe {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  #gallery {
+    display: none;
+  }
+}
+
 /* HOME BUTTON */
 .confirmation-background {
   position: absolute;
