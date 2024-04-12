@@ -199,9 +199,9 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 45px;
+  height: 35px;
   background-color: black;
-  font-size: 135%;
+  font-size: 115%;
 }
 
 .socials {
@@ -227,7 +227,7 @@ footer {
 }
 
 footer li {
-  padding: 10px 10px 10px 15px;
+  padding: 7px 10px 10px 15px;
 }
 
 .copyright {
