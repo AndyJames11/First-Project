@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Lato;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+/* LOGO AND NAVBAR ELEMENTS */
+h2 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #ffffff;
+}
+
+#logo {
+  float: left;
+  font-size: 280%;
+  margin-left: 15px;
+  text-shadow: black 0 0 10px;
+}
+
+#navbar {
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 4px;
+  text-shadow: black 0 0 10px;
+  background-color: black;
+  width: 100%;
+  height: 80px;
+}
+
+#logo, #navbar {
+  line-height: 75px;
+}
+
+#navbar li {
+  float: right;
+  margin-right: 30px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#navbar a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+/* COLLAPSIBLE MENU */
+
+.menu-content {
+  font-family: Lato;
+  padding: 0 0 0 0px;
+}
+
+.collapsible-menu {
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left: 300px;
+  top: 15px;
+  z-index: 100;
+}
+
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.collapsible-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.collapsible-menu a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.collapsible-menu a:hover {
+  text-decoration: underline;
+}
+
+.collapsible-menu label {
+  font-family: Lato;
+  font-size: 35px;
+  cursor: pointer;
+  position: fixed;
+}
+
+input#menu {
+  display: none;
+}
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  font-family: Lato;
+  padding-top: 35px;
+}
+
+input:checked~.menu-content {
+  max-height: 100%;
+  background-color: black;
+}
+
+/* COLLAPSIBLE MENU MEDIA QUERIES */
+@media (min-width: 780px) {
+  .collapsible-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 779px) {
+  #home {
+    display: none;
+  }
+}
+
+@media (max-width: 689px) {
+  #cafe {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  #gallery {
+    display: none;
+  }
+}
+
+/* BACKGROUND IMAGE */
+#booking-image {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: url("cafe-booking.webp") no-repeat 30% 50%/cover;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+
+/* BOOKING FORM ELEMENTS */
+.booking-form-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 80px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-form {
+  transform: translateY(-80px);
+}
+
+.booking-form h1 {
+  font-weight: 900;
+  font-family: Lato;
+  text-shadow: 0 0 10px black;
+  text-align: center;
+  font-size: 250%;
+}
+
+label {
+  font-size: large;
+  font-weight: 600;
+  text-shadow: 0 0 10px black;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-height: 700px) {
+  .booking-form h1 {
+    visibility: hidden;
+  }
+}
+
+
+/* FOOTER ELEMENTS BELOW */
+span {
+  padding-right: 7.5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background-color: black;
+  font-size: 115%;
+}
+
+.socials {
+  list-style: none;
+  float: left;
+}
+
+.socials a {
+  color: white;
+  text-decoration: none;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.github:hover {
+  color: rgb(230, 230, 37);
+}
+
+.youtube:hover {
+  color: red;
+}
+
+footer li {
+  padding: 7px 10px 10px 15px;
+}
+
+.copyright {
+  float: right;
+  color: white;
+  pointer-events: none;
+  list-style: none;
+  margin-right: 10px;
+}
