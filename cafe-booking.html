@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>Andrew Harvey's Portfolio</title>
   <script async src="https://kit.fontawesome.com/c6b9e58955.js" crossorigin="anonymous"></script>
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="booking-styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -25,8 +25,43 @@
     </nav>
   </header>
 
-    <div id="booking-image"></div>
+  <div id="booking-image"></div>
 
+  <div class="booking-form-background">
+    <div class="booking-form">
+      <h1>Book a table!</h1>
+      <form method="post" action="confirmation.html">
+        <div class="form-group">
+          <label for="fname">First name</label>
+          <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br>
+          <label for="lname">Last name</label>
+          <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br>
+          <label for="phone-number">Phone number</label>
+          <input type="text" id="phone-number" name="phone-number" placeholder="Enter your phone number" required><br>
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" placeholder="Pick a date for your booking" required><br>
+          <label for="time">Time</label>
+          <input type="time" id="time" name="time" placeholder="Pick a time for your booking" required><br>
+          <label for="people">Number of people</label>
+          <select type="number" id="people" name="people" min="1" max="12" placeholder="Max table size of 12" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          <input type="submit" value="Book!">
+            </div>
+        </div>
+      </form>
+    </div>
+  </div>
 
   <footer>
     <ul>
