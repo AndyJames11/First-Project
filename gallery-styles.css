@@ -9,12 +9,10 @@
 body {
   font-family: Lato;
   color: #ffffff;
-  overflow: hidden;
-  position: relative;
 }
 
 /* LOGO AND NAVBAR ELEMENTS */
-h2 {
+header h2 {
   font-family: Oswald;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -38,7 +36,8 @@ h2 {
   height: 80px;
 }
 
-#logo, #navbar {
+#logo,
+#navbar {
   line-height: 75px;
 }
 
@@ -56,14 +55,8 @@ h2 {
   border-bottom: 1px solid #ffffff;
 }
 
-/* BACKGROUND IMAGE */
-#booking-image {
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-  background: url("cafe-booking.webp") no-repeat 30% 50%/cover;
-  overflow: hidden;
-  position: absolute;
+.active {
+  border-bottom: 1px solid white;
 }
 
 /* COLLAPSIBLE MENU */
@@ -150,47 +143,123 @@ input:checked~.menu-content {
   }
 }
 
-/* HOME BUTTON */
-.confirmation-background {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  top: 80px;
-  left: 0;
-  background: rgba(0, 0, 0, 0.3);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.confirmation-text {
-  font-family: Oswald;
-  position: absolute;
+/* Main Page Elements */
+.title {
+  color: black;
   text-align: center;
-  top: 20vh;
-  width: 100%;
-  color: rgb(255, 255, 255);
-  font-size: x-large;
+  font-family: Lato;
   font-weight: 900;
-  text-shadow: 0 0 10px black;
+  padding-top: 10px;
 }
 
-.home-button {
-  border: solid 4px white;
-  border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.25);
-  color: white;
-  font-size: inherit;
-  font-family: inherit;
-  font-weight: inherit;
-  text-shadow: inherit;
-  text-align: center;
-  align-items: center;
-  margin-top: 15px;
-  padding: 8px 12px 12px 12px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
+img {
+  width: 410px;
+  height: 300px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.column iframe {
+  margin-top: 8px;
+}
+
+/* IMAGE AND VIDEO MEDIA QUERIES */
+@media (max-width: 2507px) {
+  iframe {
+    width: 713px;
+  }
+  img {
+    width: 427px;
+  }
+}
+
+@media (max-width: 2178px) {
+  iframe {
+    width: 610px;
+  }
+  img {
+    width: 457px;
+  }
+}
+
+@media (max-width: 1868px) {
+  img {
+    width: 395px;
+  }
+
+  iframe {
+    width: 527.5px;
+  }
+}
+
+@media (max-width: 1620px) {
+  iframe {
+    width: 394.5px;
+  }
+  img {
+    width: 394.5px;
+  }
+}
+
+@media (max-width: 1220px) {
+  img {
+    width: 295px;
+    height: 200px;
+  }
+
+  iframe {
+    width: 295px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 922px) {
+  img {
+    width: 200px;
+    height: 150px;
+  }
+
+  iframe {
+    width: 267.5px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 840px) {
+  iframe {
+    width: 200px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 637px) {
+  iframe {
+    width: 403px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 434px) {
+  img {
+    width: 100vw;
+  }
+  iframe {
+    width: 100vw;
+  }
 }
 
 /* FOOTER ELEMENTS BELOW */
