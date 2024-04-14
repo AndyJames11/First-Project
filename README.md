@@ -218,6 +218,8 @@ and
 
 -   The images used in the Gallery page were taking from our cup final on the 5th April 2024. [This is the cameraman's twitter post](https://twitter.com/localbusdriver/status/1776556651157377437?s=46&t=JTqdeutd6qOx9ci-LK-KuQ) and [this is the link to the original photos.](https://www.flickr.com/photos/localbusdriver/albums/72177720316042414)
 
+-   The full match video footage on the Gallery page is embedded from the [VEO website](https://app.veo.co/matches/20240405-af895f17-aebe-4e5d-898d-0fb17c9c1cb5-31a51dff/?highlight=3b361495-e901-4eca-85bb-c021f1021588&scroll=MT)
+
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
