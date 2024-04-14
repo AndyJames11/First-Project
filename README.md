@@ -41,6 +41,7 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 * #### Button that links to a booking form page
 * #### Booking form with mutliple input types, all required with submit button that links to booking confirmation page
 * #### Gallery of photos taken at football match with links to the actual image page on flickr
+* #### Embedded YouTube videos
 * #### Links to socials and to other Github projects in footer
 
 # Technologies Used
@@ -65,12 +66,41 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 * #### [GitPod](https://www.gitpod.io/)
     * #### GitPod is the program I am using now for all of my coding for this project. It uses VS Code as its IDE and links to GitHub for code commits and pushing code.
 
-### Further Testing
+# Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Opera and Microsoft Edge.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 15 Pro and iPhone 13.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and colleagues were asked to review the site and point out any bugs.
+
+### Functional Testing
+
+-   Tested all features on all pages. All working as expected
+
+
+    | Action                                                    | Expected Result                                                   | Pass or Fail      |
+    |:----------------------------------------------------------|:-----------------------------------------------------------------:|------------------:|
+    | Clicking on 'My Projects' logo                            | Takes me back to the home page                                    | Pass on all pages |
+    | Click links in Navbar                                     | Links take me to the correct page                                 | Pass on all pages |
+    | Click links in footer                                     | Links take me to the correct page                                 | Pass on all pages |
+    | Click 'Book' button on Cafe page                          | Directed to a booking form page                                   | Pass              |
+    | Leaving options blank on booking form                     | Prevented from making a booking without all fields filled         | Pass              |
+    | Clicking 'Book!' button on Booking form                   | Redirected to a confirmation page                                 | Pass              |
+    | Clicking play on embedded YouTube videos in Gallery page  | Video should begin playing                                        | Pass              |
+    | Clicking on images in Gallery page                        | Should direct me to the correct image on the original Flickr page | Pass              |
+
+
+| Action                         | Expected Result                   | Pass or Fail      |
+|--------------------------------|-----------------------------------|-------------------|
+| Clicking on 'My Projects' logo | Takes me back to the home page    | Pass on all pages |
+| Click links in Navbar          | Links take me to the correct page | Pass on all pages |
+|                                |                                   | Pass on all pages |
+|                                |                                   |                   |
+|                                |                                   |                   |
+|                                |                                   |                   |
+|                                |                                   |                   |
+|                                |                                   |                   |
+
 
 ### Performance Optimisation
 
@@ -78,10 +108,15 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 -   Deferred loading of AwesomeFont script using **async** which increases loading speed of the website.
 -   Preloaded images as a priority to further reduce load times.
 -   Use of Chrome's built in Lighthouse feature to check performance of each page ensuring over 95% performance on all pages. 
+-   "Lazy" loading of images on Gallery page to ensure high performance.
 
 ### Code Testing using W3 Validation Service for [HTML](https://validator.w3.org/#validate_by_input) and [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
--   
+-   #### Home Page: [HTML](/Code-Validation/index.html.png) - [CSS](/Code-Validation/style.css.png)
+-   #### Cafe Home Page: [HTML](/Code-Validation/cafe.html.png) - [CSS](/Code-Validation/cafe-styles.css.png)
+-   #### Cafe Booking Page: [HTML](/Code-Validation/cafe-booking.html.png) - [CSS](/Code-Validation/booking-styles.css.png)
+-   #### Cafe Booking Confirmation Page: [HTML](/Code-Validation/confirmation.html.png) - [CSS](/Code-Validation/confirmation-styles.css.png)
+-   #### Gallery Page: [HTML](/Code-Validation/gallery.html.png) - [CSS](/Code-Validation/gallery-styles.css.png)
 
 ### Known Bugs
 
