@@ -51,13 +51,14 @@
           <label for="lname">Last name</label>
           <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br>
           <label for="phone-number">Phone number</label>
-          <input type="text" id="phone-number" name="phone-number" placeholder="Enter your phone number" required><br>
+          <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone number" required><br>
           <label for="date">Date</label>
-          <input type="date" id="date" name="date" placeholder="Pick a date for your booking" required><br>
+          <input type="date" id="date" name="date" required><br>
           <label for="time">Time</label>
-          <input type="time" id="time" name="time" placeholder="Pick a time for your booking" required><br>
+          <input type="time" id="time" name="time" required><br>
           <label for="people">Number of people</label>
-          <select type="number" id="people" name="people" min="1" max="12" placeholder="Max table size of 12" required>
+          <select id="people" name="people" required>
+            <option label="Please choose an option" value=""></option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -70,8 +71,8 @@
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>
+          </select>
           <input type="submit" value="Book!">
-            </div>
         </div>
       </form>
     </div>
@@ -81,7 +82,7 @@
     <ul>
       <li class="socials"><a href="https://www.linkedin.com/in/andrew-h-788807124/" target="_blank" class="linkedin">LinkedIn<span></span><i class="fa-brands fa-linkedin"></i></a></li>
       <li class="socials"><a href="https://github.com/AndyJames11" target="_blank" class="github">Github<span></span><i class="fa-brands fa-github"></i></a></li>
-      <li class="socials"><a href="https://www.youtube.com/@andrewjames1167" target="_blank"class="youtube">YouTube<span></span><i class="fa-brands fa-youtube"></i></a></li>
+      <li class="socials"><a href="https://www.youtube.com/@andrewjames1167" target="_blank" class="youtube">YouTube<span></span><i class="fa-brands fa-youtube"></i></a></li>
       <li class="copyright"><p>© 2024 AndrewJamesCo</p></li>
     </ul>
   </footer>
