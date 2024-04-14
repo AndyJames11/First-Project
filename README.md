@@ -31,9 +31,11 @@ This website is for my Milestone 1 project in my Web Development course with Cod
         * I think the main image is very important for a webpage. It needs to grab the attention of the user without being too distracting from the content. For my landing page, I have chosen to use a picture of myself at a football match as I like the colours and makes gives the page feel warm. It also shows what I look like which is useful for recruiters, and it shows me doing a hobby so you get an idea about my personality. For the cafe page, I opted to use a minimalist, slightly blurred, real cafe image as I think it looks very modern and clean.
 
     * #### Wireframes
-        * Home page wireframe - [View](link)
-        * Cafe page wireframe - [View](link)
-        * Cup Final Gallery page wireframe - [View](link)
+        * Home page wireframe - [View](/Wireframes/Home%20page.png)
+        * Cafe page wireframe - [View](/Wireframes/Cafe%20Menu%20page.png)
+        * Cafe booking page wireframe - [View](/Wireframes/Booking%20page.png)
+        * Booking confirmation page wireframe - [View](/Wireframes/Booking%20Confirmation%20page%20copy.png)
+        * Cup Final Gallery page wireframe - [View](/Wireframes/Gallery%20Page.png)
 
 # Features
 * #### Navbars and footers
@@ -88,18 +90,6 @@ This website is for my Milestone 1 project in my Web Development course with Cod
     | Clicking 'Book!' button on Booking form                   | Redirected to a confirmation page                                 | Pass              |
     | Clicking play on embedded YouTube videos in Gallery page  | Video should begin playing                                        | Pass              |
     | Clicking on images in Gallery page                        | Should direct me to the correct image on the original Flickr page | Pass              |
-
-
-| Action                         | Expected Result                   | Pass or Fail      |
-|--------------------------------|-----------------------------------|-------------------|
-| Clicking on 'My Projects' logo | Takes me back to the home page    | Pass on all pages |
-| Click links in Navbar          | Links take me to the correct page | Pass on all pages |
-|                                |                                   | Pass on all pages |
-|                                |                                   |                   |
-|                                |                                   |                   |
-|                                |                                   |                   |
-|                                |                                   |                   |
-|                                |                                   |                   |
 
 
 ### Performance Optimisation

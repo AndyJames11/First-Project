@@ -256,6 +256,16 @@ img {
   }
 }
 
+@media (max-width: 825px) {
+  iframe {
+    width: 255px
+  }
+
+  img {
+    width: 190px;
+  }
+}
+
 @media (max-width: 637px) {
   iframe {
     width: 403px;
