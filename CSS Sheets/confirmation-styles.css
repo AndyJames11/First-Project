@@ -1,44 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 * {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
   font-family: Lato;
-  color: #000000;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
 }
 
-#hero-image{
-  width: 100%;
-  height: 87vh;
-  background: url("cafe-page.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* filter: grayscale(75%); */
+/* LOGO AND NAVBAR ELEMENTS */
+h2 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #ffffff;
 }
 
 #logo {
   float: left;
   font-size: 280%;
   margin-left: 15px;
-  font-family: Oswald;
-  letter-spacing: 4px;
-  color: black;
-  text-transform: uppercase;
+  text-shadow: black 0 0 10px;
 }
 
 #navbar {
   font-size: 110%;
   list-style-type: none;
   letter-spacing: 4px;
+  text-shadow: black 0 0 10px;
+  background-color: black;
   width: 100%;
   height: 80px;
 }
 
-#logo, #navbar{
+#logo, #navbar {
   line-height: 75px;
 }
 
@@ -52,12 +52,18 @@ body {
   color: inherit;
 }
 
-#navbar a:hover{
-  border-bottom: 1px solid #000000;
+#navbar a:hover {
+  border-bottom: 1px solid #ffffff;
 }
 
-.active{
-  border-bottom: 1px solid #000000;
+/* BACKGROUND IMAGE */
+#booking-image {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background: url("/Images/cafe-booking.webp") no-repeat 30% 50%/cover;
+  overflow: hidden;
+  position: absolute;
 }
 
 /* COLLAPSIBLE MENU */
@@ -74,7 +80,6 @@ body {
   left: 300px;
   top: 15px;
   z-index: 100;
-  color: black;
 }
 
 .collapsible-menu ul {
@@ -83,7 +88,7 @@ body {
 }
 
 .collapsible-menu li a {
-  color: rgb(0, 0, 0);
+  color: white;
   text-decoration: none;
 }
 
@@ -102,7 +107,6 @@ body {
   font-size: 35px;
   cursor: pointer;
   position: fixed;
-  color: black;
 }
 
 input#menu {
@@ -118,7 +122,7 @@ input#menu {
 
 input:checked~.menu-content {
   max-height: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: black;
 }
 
 /* COLLAPSIBLE MENU MEDIA QUERIES */
@@ -146,19 +150,32 @@ input:checked~.menu-content {
   }
 }
 
-.cafe-title {
+/* HOME BUTTON */
+.confirmation-background {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 80px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-text {
   font-family: Oswald;
   position: absolute;
   text-align: center;
-  top: 42%;
+  top: 20vh;
   width: 100%;
   color: rgb(255, 255, 255);
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: 900;
   text-shadow: 0 0 10px black;
 }
 
-.booking {
+.home-button {
   border: solid 4px white;
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.25);
@@ -176,110 +193,9 @@ input:checked~.menu-content {
   cursor: pointer;
 }
 
-#location {
-  font-family: Oswald;
-  position: absolute;
-  text-align: center;
-  top: 90vh;
-  width: 100%;
-  color: rgb(255, 255, 255);
-  font-size: xx-large;
-  font-weight: 600;
-  text-shadow: 0 0 10px black;
-}
-
-@media (max-width:758px)  {
-  #location {
-    top: 85vh;
-  }
-}
-
-@media (max-width:420px)  {
-  #location {
-    top: 80vh;
-  }
-}
-
-@media (max-width:283px)  {
-  #location {
-    top: 83vh;
-    font-size: x-large;
-  }
-
-  .cafe-title {
-    font-size: x-large;
-  }
-}
-
-@media (max-width:215px)  {
-  #location {
-    top: 80vh;
-    font-size: x-large;
-  }
-
-  .cafe-title {
-    font-size: x-large;
-  }
-
-  .booking {
-    font-size: large;
-  }
-}
-
-.menu-items {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  padding-top: 5px;
-}
-
-.menu-items h2 {
-  font-size: 300%;
-  font-weight: 900;
-  text-decoration: underline 2px black;
-  padding-bottom: 10px;
-}
-
-.row {
-  display: flex;
-  margin-bottom: 35px;
-}
-
-.column {
-  flex: 50%;
-  margin-bottom: 15px;
-  margin-left: 6%;
-  font-size: large;
-  text-align: left;
-}
-
-.column h3 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 160%;
-  text-decoration: underline 0.5px;
-}
-
+/* FOOTER ELEMENTS BELOW */
 span {
   padding-right: 7.5px;
-}
-
-@media screen and (max-width: 1234px) {
-  #menu {
-    height: 160px;
-  }
-}
-
-@media screen and (max-width: 652px) {
-#menu {
-  height: 240px;
-  }
-}
-
-@media screen and (max-width: 563px) {
-  #menu {
-    height: 290px;
-  }
 }
 
 footer {

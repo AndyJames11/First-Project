@@ -10,7 +10,6 @@ body {
   font-family: Lato;
   color: #ffffff;
   overflow: hidden;
-  position: relative;
 }
 
 /* LOGO AND NAVBAR ELEMENTS */
@@ -54,16 +53,6 @@ h2 {
 
 #navbar a:hover {
   border-bottom: 1px solid #ffffff;
-}
-
-/* BACKGROUND IMAGE */
-#booking-image {
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-  background: url("cafe-booking.webp") no-repeat 30% 50%/cover;
-  overflow: hidden;
-  position: absolute;
 }
 
 /* COLLAPSIBLE MENU */
@@ -150,11 +139,23 @@ input:checked~.menu-content {
   }
 }
 
-/* HOME BUTTON */
-.confirmation-background {
+/* BACKGROUND IMAGE */
+#booking-image {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: url("/Images/cafe-booking.webp") no-repeat 30% 50%/cover;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+
+/* BOOKING FORM ELEMENTS */
+.booking-form-background {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   top: 80px;
   left: 0;
   background: rgba(0, 0, 0, 0.3);
@@ -163,34 +164,86 @@ input:checked~.menu-content {
   align-items: center;
 }
 
-.confirmation-text {
-  font-family: Oswald;
-  position: absolute;
-  text-align: center;
-  top: 20vh;
-  width: 100%;
-  color: rgb(255, 255, 255);
-  font-size: x-large;
+.booking-form {
+  transform: translateY(-80px);
+}
+
+.booking-form h1 {
   font-weight: 900;
+  font-family: Lato;
+  text-shadow: 0 0 10px black;
+  text-align: center;
+  font-size: 250%;
+}
+
+label {
+  font-size: large;
+  font-weight: 600;
   text-shadow: 0 0 10px black;
 }
 
-.home-button {
-  border: solid 4px white;
-  border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.25);
-  color: white;
-  font-size: inherit;
-  font-family: inherit;
-  font-weight: inherit;
-  text-shadow: inherit;
-  text-align: center;
-  align-items: center;
-  margin-top: 15px;
-  padding: 8px 12px 12px 12px;
-  text-decoration: none;
+.form-group {
+  width: 200%;
+  transform: translateX(-25%);
+}
+
+input, select {
+  width: 100%;
+  padding: 18px 20px;
+  margin: 12px 0;
   display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 18px 20px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-height: 700px) {
+  .booking-form h1 {
+    visibility: hidden;
+  }
+}
+
+@media (max-height: 667px) {
+  input, select {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+
+  label {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  input, select {
+    width: 100%;
+  }
+
+  .form-group {
+    width: 100%;
+    transform: translateX(0);
+  }
+
 }
 
 /* FOOTER ELEMENTS BELOW */
