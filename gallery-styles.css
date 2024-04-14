@@ -150,6 +150,15 @@ input:checked~.menu-content {
   font-family: Lato;
   font-weight: 900;
   padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.title a {
+  color: black;
+}
+
+.title a:hover {
+  color: blue;
 }
 
 img {
