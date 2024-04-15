@@ -97,7 +97,7 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 -   Images used have been scaled down in order to reduce load times. Original photos are 25-50% higher resolution than the ones used in the website. Also converted image type to .webp which helps speed up loading time.
 -   Deferred loading of AwesomeFont script using **async** which increases loading speed of the website.
 -   Preloaded images as a priority to further reduce load times.
--   Use of Chrome's built in Lighthouse feature to check performance of each page ensuring over 95% performance on all pages. 
+-   Use of Chrome's built in Lighthouse feature to check performance of each page ensuring over 95% performance on all pages on Desktop, and 85% on Mobile (Gallery page is lower performance due to large videos being embedded). 
 -   "Lazy" loading of images on Gallery page to ensure high performance.
 
 ### Code Testing using W3 Validation Service for [HTML](https://validator.w3.org/#validate_by_input) and [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -208,7 +208,7 @@ and
 
 -   The images used in the Gallery page were taking from our cup final on the 5th April 2024. [This is the cameraman's twitter post](https://twitter.com/localbusdriver/status/1776556651157377437?s=46&t=JTqdeutd6qOx9ci-LK-KuQ) and [this is the link to the original photos.](https://www.flickr.com/photos/localbusdriver/albums/72177720316042414)
 
--   The full match video footage on the Gallery page is embedded from the [VEO website](https://app.veo.co/matches/20240405-af895f17-aebe-4e5d-898d-0fb17c9c1cb5-31a51dff/?highlight=3b361495-e901-4eca-85bb-c021f1021588&scroll=MT)
+-   The full match video footage on the Gallery page is embedded from the VEO website. [Game 1](https://app.veo.co/matches/20240405-af895f17-aebe-4e5d-898d-0fb17c9c1cb5-31a51dff/?highlight=3b361495-e901-4eca-85bb-c021f1021588&scroll=MT) and [Game 2](https://app.veo.co/matches/20240414-a45af17c-4934-4907-b91f-179b44239aab-c5115a37/)
 
 ### Acknowledgements
 
