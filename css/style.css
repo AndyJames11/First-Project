@@ -145,7 +145,7 @@ input:checked~.menu-content {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
-  background: url("images/home-page.webp") no-repeat 30% 50%/cover;
+  background: url("../images/home-page.webp") no-repeat 30% 50%/cover;
   overflow: hidden;
   position: absolute;
 }

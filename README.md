@@ -1,6 +1,6 @@
 # Andrew Harvey's Portfolio Website
 
-[View the live project here.](https://github.com/AndyJames11/First-Project)
+[View the live project here.](https://andyjames11.github.io/First-Project/)
 
 This website is for my Milestone 1 project in my Web Development course with CodeInstitute. I decided to create a portfolio site which has a simple landing page, a Cafe style website, and a gallery of photos from my recent cup final football match. The purpose of the site is purely to demonstrate my different skills and I have tried to showcase a variety of different elements and styles in order to show what I am capable of to any potential recruiters down the line. In the future I plan to add some more pages to the site for example, one page dedicated to showing off my Discord Bot which I built in JavaScript, and another page with some basic details about me and a link to my CV.
 
