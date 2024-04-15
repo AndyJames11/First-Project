@@ -144,7 +144,7 @@ input:checked~.menu-content {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  background: url("/Images/cafe-booking.webp") no-repeat 30% 50%/cover;
+  background: url("images/cafe-booking.webp") no-repeat 30% 50%/cover;
   overflow: hidden;
   position: absolute;
 }

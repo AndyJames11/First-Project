@@ -31,11 +31,11 @@ This website is for my Milestone 1 project in my Web Development course with Cod
         * I think the main image is very important for a webpage. It needs to grab the attention of the user without being too distracting from the content. For my landing page, I have chosen to use a picture of myself at a football match as I like the colours and makes gives the page feel warm. It also shows what I look like which is useful for recruiters, and it shows me doing a hobby so you get an idea about my personality. For the cafe page, I opted to use a minimalist, slightly blurred, real cafe image as I think it looks very modern and clean.
 
     * #### Wireframes
-        * Home page wireframe - [View](/Wireframes/Home%20page.png)
-        * Cafe page wireframe - [View](/Wireframes/Cafe%20Menu%20page.png)
-        * Cafe booking page wireframe - [View](/Wireframes/Booking%20page.png)
-        * Booking confirmation page wireframe - [View](/Wireframes/Booking%20Confirmation%20page%20copy.png)
-        * Cup Final Gallery page wireframe - [View](/Wireframes/Gallery%20Page.png)
+        * Home page wireframe - [View](wireframes/Home%20page.png)
+        * Cafe page wireframe - [View](wireframes/Cafe%20Menu%20page.png)
+        * Cafe booking page wireframe - [View](wireframes/Booking%20page.png)
+        * Booking confirmation page wireframe - [View](wireframes/Booking%20Confirmation%20page%20copy.png)
+        * Cup Final Gallery page wireframe - [View](wireframes/Gallery%20Page.png)
 
 # Features
 * #### Navbars and footers
