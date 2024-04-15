@@ -213,15 +213,18 @@ input[type=submit]:hover {
   color: white;
 }
 
+.required {
+  color: red;
+}
 
 /* MEDIA QUERIES */
-@media (max-height: 700px) {
+@media (max-height: 800px) {
   .booking-form h1 {
     visibility: hidden;
   }
 }
 
-@media (max-height: 667px) {
+@media (max-width: 400px) and (max-height: 844px) {
   input, select {
     padding-bottom: 5px;
     padding-top: 5px;
@@ -234,7 +237,20 @@ input[type=submit]:hover {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 540px) and (max-height: 720px) {
+  input, select {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+
+  label {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 800px) {
   input, select {
     width: 100%;
   }
@@ -243,7 +259,20 @@ input[type=submit]:hover {
     width: 100%;
     transform: translateX(0);
   }
+}
 
+@media (max-width: 950px) {
+  .form-group {
+    width: 100%;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 465px) {
+  .form-group {
+    width: 75%;
+    transform: translateX(20%);
+  }
 }
 
 /* FOOTER ELEMENTS BELOW */
