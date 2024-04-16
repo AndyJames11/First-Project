@@ -1,16 +1,20 @@
+/* Imports Lato and Oswald fonts which are used throughout */
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Oswald');
 
+/* Ensure all margins and padding etc. is set to 0 */
 * {
   margin:0;
   padding:0;
   border:0;
 }
 
+/* Changing default font and colour */
 body {
   font-family: Lato;
   color: #000000;
 }
 
+/* Sets background image and styling of it. Allows for scrolling of page. Grayscale filter commented out as I decided I prefer it without, but may change my mind in the future */
 #hero-image{
   width: 100%;
   height: 87vh;
@@ -20,6 +24,8 @@ body {
   /* filter: grayscale(75%); */
 }
 
+/* LOGO AND NAVBAR ELEMENTS */
+/* Styling for my 'My Projects' logo, and also for my top Navbar */
 #logo {
   float: left;
   font-size: 280%;
@@ -61,6 +67,7 @@ body {
 }
 
 /* COLLAPSIBLE MENU */
+/* Ensuring the menu appears in the correct position and displays all links correctly. Also removes checkbox icon as a checkbox is used to toggle the list open and closed */
 
 .menu-content {
   font-family: Lato;
@@ -122,6 +129,7 @@ input:checked~.menu-content {
 }
 
 /* COLLAPSIBLE MENU MEDIA QUERIES */
+/* Ensuring the menu appears in the correct position and displays all links correctly. */
 @media (min-width: 780px) {
   .collapsible-menu {
     display: none;
@@ -146,6 +154,8 @@ input:checked~.menu-content {
   }
 }
 
+/* Main Page Elements */
+/* Sets color, size, font and position for the main text on screen */
 .cafe-title {
   font-family: Oswald;
   position: absolute;
@@ -188,6 +198,7 @@ input:checked~.menu-content {
   text-shadow: 0 0 10px black;
 }
 
+/* Media queries to ensure elements are visible and look good on smaller devices */
 @media (max-width:758px)  {
   #location {
     top: 85vh;
@@ -226,6 +237,7 @@ input:checked~.menu-content {
   }
 }
 
+/* Styling for the menu. Lays out two columns for different items */
 .menu-items {
   width: 100%;
   text-align: center;
@@ -260,6 +272,8 @@ input:checked~.menu-content {
   text-decoration: underline 0.5px;
 }
 
+/* FOOTER ELEMENTS BELOW */
+/* Spacing between Footer text and respective icon. Also styling on hover of link + positioning of links and copyright text */
 span {
   padding-right: 7.5px;
 }

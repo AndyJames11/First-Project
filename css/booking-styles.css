@@ -1,11 +1,14 @@
+/* Imports Lato and Oswald fonts which are used throughout */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
+/* Ensure all margins and padding etc. is set to 0 */
 * {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
+/* Changing default font and colour. Also making page un-scrollable */
 body {
   font-family: Lato;
   color: #ffffff;
@@ -13,6 +16,7 @@ body {
 }
 
 /* LOGO AND NAVBAR ELEMENTS */
+/* Styling for my 'My Projects' logo, and also for my top Navbar */
 h2 {
   font-family: Oswald;
   text-transform: uppercase;
@@ -56,6 +60,7 @@ h2 {
 }
 
 /* COLLAPSIBLE MENU */
+/* Ensuring the menu appears in the correct position and displays all links correctly. Also removes checkbox icon as a checkbox is used to toggle the list open and closed  */
 
 .menu-content {
   font-family: Lato;
@@ -115,6 +120,7 @@ input:checked~.menu-content {
 }
 
 /* COLLAPSIBLE MENU MEDIA QUERIES */
+/* Ensuring the menu appears in the correct position and displays all links correctly. */
 @media (min-width: 780px) {
   .collapsible-menu {
     display: none;
@@ -140,6 +146,7 @@ input:checked~.menu-content {
 }
 
 /* BACKGROUND IMAGE */
+/* Sets background image and styling of it. Prevents scrolling of page. */
 #booking-image {
   width: 100%;
   height: 100%;
@@ -152,6 +159,7 @@ input:checked~.menu-content {
 
 
 /* BOOKING FORM ELEMENTS */
+/* Sets color, size, font and position for the text. Also sets size and position of booking form fields and aligns them correctly */
 .booking-form-background {
   position: absolute;
   width: 100%;
@@ -218,6 +226,7 @@ input[type=submit]:hover {
 }
 
 /* MEDIA QUERIES */
+/* Ensures all booking form fields are visible and look good on smaller devices */
 @media (max-height: 800px) {
   .booking-form h1 {
     visibility: hidden;
@@ -276,6 +285,7 @@ input[type=submit]:hover {
 }
 
 /* FOOTER ELEMENTS BELOW */
+/* Spacing between Footer text and respective icon. Also styling on hover of link + positioning of links and copyright text */
 span {
   padding-right: 7.5px;
 }

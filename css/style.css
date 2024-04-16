@@ -1,17 +1,22 @@
+/* Imports Lato and Oswald fonts which are used throughout */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
+/* Ensure all margins and padding etc. is set to 0 */
 * {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
+/* Changing default font and colour. Also making page un-scrollable */
 body {
   font-family: Lato;
   color: #ffffff;
   overflow: hidden;
 }
 
+/* LOGO AND NAVBAR ELEMENTS */
+/* Styling for my 'My Projects' logo, and also for my top Navbar */
 h2 {
   font-family: Oswald;
   text-transform: uppercase;
@@ -36,8 +41,7 @@ h2 {
   height: 80px;
 }
 
-#logo,
-#navbar {
+#logo, #navbar {
   line-height: 75px;
 }
 
@@ -61,6 +65,7 @@ h2 {
 
 
 /* COLLAPSIBLE MENU */
+/* Ensuring the menu appears in the correct position and displays all links correctly. Also removes checkbox icon as a checkbox is used to toggle the list open and closed  */
 
 .menu-content {
   font-family: Lato;
@@ -116,6 +121,7 @@ input:checked~.menu-content {
 }
 
 /* COLLAPSIBLE MENU MEDIA QUERIES */
+/* Ensuring the menu appears in the correct position and displays all links correctly. */
 @media (min-width: 780px) {
   .collapsible-menu {
     display: none;
@@ -140,7 +146,7 @@ input:checked~.menu-content {
   }
 }
 
-
+/* Styling for my background and the floating text */
 #hero-image {
   width: 100%;
   height: 100vh;
@@ -170,6 +176,7 @@ input:checked~.menu-content {
   position: absolute;
 }
 
+/* Media queries ensuring the floating text remains visible on smaller devices and doesn't block any important elements */
 @media screen and (max-width: 1614px) {
   #cover-text {
     font-size: 180%;
@@ -199,6 +206,8 @@ input:checked~.menu-content {
   }
 }
 
+/* FOOTER ELEMENTS BELOW */
+/* Spacing between Footer text and respective icon. Also styling on hover of link + positioning of links and copyright text */
 span {
   padding-right: 7.5px;
 }

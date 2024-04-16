@@ -2,7 +2,7 @@
 
 [View the live project here.](https://andyjames11.github.io/First-Project/)
 
-This website is for my Milestone 1 project in my Web Development course with CodeInstitute. I decided to create a portfolio site which has a simple landing page, a Cafe style website, and a gallery of photos from my recent cup final football match. The purpose of the site is purely to demonstrate my different skills and I have tried to showcase a variety of different elements and styles in order to show what I am capable of to any potential recruiters down the line. In the future I plan to add some more pages to the site for example, one page dedicated to showing off my Discord Bot which I built in JavaScript, and another page with some basic details about me and a link to my CV.
+This website is for my Milestone 1 project in my Web Development course with CodeInstitute. I decided to create a portfolio site which has a simple landing page, a Cafe style website, and a Gallery of photos from my recent cup final football match. The purpose of the site is purely to demonstrate my different skills and I have tried to showcase a variety of different elements and styles in order to show what I am capable of to any potential recruiters down the line. I have experimented with different techniques e.g. media queries and collapsible menus which only appear when the page is shrunk. In the future I plan to add some more pages to the site for example, one page dedicated to showing off my Discord Bot which I built in JavaScript, and another page with some basic details about me and a link to my CV.
 
 # User Experience (UX)
 
@@ -14,11 +14,11 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 
     * #### Returning visitor goals
         * As a returning visitor, I want to find contact information for the developer so I can get in touch with them if I have any questions.
-        * As a returning visitor, I want to see if the developer is looking for work.
+        * As a returning visitor, I want to see if there are any new images or videos added to the Gallery page.
 
     * #### Frequent visitor goals
         * As a frequent visitor, I want to see if there are any newly added pages or features.
-        * As a frequent visitor, I want to see if the developer is still open to work.
+        * As a frequent visitor, I want to see if the developer is open to work.
 
 * ## Design
     * #### Colour Scheme
@@ -28,7 +28,7 @@ This website is for my Milestone 1 project in my Web Development course with Cod
         * The fonts used in my portfolio are Lato and Oswald. Lato is the main font used, with some headers and the 'My Projects' logo using Oswald. I like both of these fonts and I think they are eye catching but also very clean and easy to read.
 
     * #### Imagery
-        * I think the main image is very important for a webpage. It needs to grab the attention of the user without being too distracting from the content. For my landing page, I have chosen to use a picture of myself at a football match as I like the colours and makes gives the page feel warm. It also shows what I look like which is useful for recruiters, and it shows me doing a hobby so you get an idea about my personality. For the cafe page, I opted to use a minimalist, slightly blurred, real cafe image as I think it looks very modern and clean.
+        * I think the main image is very important for a webpage. It needs to grab the attention of the user without being too distracting from the content. For my landing page, I have chosen to use a picture of myself at a football match as I like the colours and makes gives the page feel warm. It also shows what I look like which is useful for recruiters, and it shows me doing a hobby so you get an idea about my personality. For the cafe page, I opted to use a minimalist, slightly blurred, real cafe image as I think it looks very modern and clean. For the booking pages, I opted to use a warm non-distracting image so the booking form elements were clearly visible with a nice to look at image in the background.
 
     * #### Wireframes
         * Home page wireframe - [View](wireframes/Home%20page.png)
@@ -43,7 +43,7 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 * #### Button that links to a booking form page
 * #### Booking form with mutliple input types, all required with submit button that links to booking confirmation page
 * #### Gallery of photos taken at football match with links to the actual image page on flickr
-* #### Embedded YouTube videos
+* #### Embedded YouTube and Veo videos
 * #### Links to socials and to other Github projects in footer
 
 # Technologies Used
@@ -71,25 +71,27 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 # Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Opera and Microsoft Edge.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 15 Pro and iPhone 13.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 15 Pro and iPad Air.
+-   Inspect Element's built in device type viewer was used to ensure functionality on different screen sizes.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and colleagues were asked to review the site and point out any bugs.
+-   Friends and colleagues were asked to review the site and point out any bugs. Any bugs found are documented in the Known Bugs section below.
 
 ### Functional Testing
 
 -   Tested all features on all pages. All working as expected
 
 
-    | Action                                                    | Expected Result                                                   | Pass or Fail      |
-    |:----------------------------------------------------------|:-----------------------------------------------------------------:|------------------:|
-    | Clicking on 'My Projects' logo                            | Takes me back to the home page                                    | Pass on all pages |
-    | Click links in Navbar                                     | Links take me to the correct page                                 | Pass on all pages |
-    | Click links in footer                                     | Links take me to the correct page                                 | Pass on all pages |
-    | Click 'Book' button on Cafe page                          | Directed to a booking form page                                   | Pass              |
-    | Leaving options blank on booking form                     | Prevented from making a booking without all fields filled         | Pass              |
-    | Clicking 'Book!' button on Booking form                   | Redirected to a confirmation page                                 | Pass              |
-    | Clicking play on embedded YouTube videos in Gallery page  | Video should begin playing                                        | Pass              |
-    | Clicking on images in Gallery page                        | Should direct me to the correct image on the original Flickr page | Pass              |
+    | Action                                                    | Expected Result                                                           | Pass or Fail      |
+    |:----------------------------------------------------------|:-------------------------------------------------------------------------:|------------------:|
+    | Clicking on 'My Projects' logo                            | Takes me back to the home page                                            | Pass on all pages |
+    | Click links in Navbar                                     | Links take me to the correct page                                         | Pass on all pages |
+    | Click links in footer                                     | Links take me to the correct page                                         | Pass on all pages |
+    | Click 'Book' button on Cafe page                          | Directed to a booking form page                                           | Pass              |
+    | Leaving options blank on booking form                     | Prevented from making a booking without all fields filled                 | Pass              |
+    | Clicking 'Book!' button on Booking form                   | Redirected to a confirmation page                                         | Pass              |
+    | Clicking play on embedded YouTube videos in Gallery page  | Video should begin playing                                                | Pass              |
+    | Clicking on images in Gallery page                        | Should direct me to the correct image on the original Flickr page         | Pass              |
+    | Resizing the webpages                                     | Content should shrink and grow to be visible on different screen sizes    | Pass on all pages |
 
 
 ### Performance Optimisation
@@ -112,7 +114,8 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 
 -   On some mobile devices, the floating text on the landing/home page covers a small part of the top Navbar. **FIXED 12/04/2022**
 -   On some mobile devices, scrolling down on the landing/home page can result in being unable to scroll back up the page.
--   Booking form can be difficult to use on very small devices.
+-   Booking form can be difficult to use on very small devices. **FIXED 11/04/2022**
+-   Booking form fields allow for use of special characters and do not check if the user has provided a valid phone number or email address. It is also possible to set the date and time to a historic value.
 
 ## Deployment
 
@@ -197,6 +200,15 @@ and
   <div class="column"></div>
 </div>
 ```
+
+3.  I used code on [this page](https://codeburst.io/how-to-make-a-collapsible-menu-using-only-css-a1cd805b1390) to understand how to create a collapsible menu in my website's top navbar. I used the code as a base to understand how it works, and then re-wrote it to fit my needs. Some small pieces of code remains the same, for example: 
+``` 
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+} 
+```
+however, all code from the page has been re-written to fit better with my website and the theming of it.  
 
 ### Media
 

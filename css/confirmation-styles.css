@@ -1,11 +1,14 @@
+/* Imports Lato and Oswald fonts which are used throughout */
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
+/* Ensure all margins and padding etc. is set to 0 */
 * {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
+/* Changing default font and colour. Also making page un-scrollable */
 body {
   font-family: Lato;
   color: #ffffff;
@@ -14,6 +17,7 @@ body {
 }
 
 /* LOGO AND NAVBAR ELEMENTS */
+/* Styling for my 'My Projects' logo, and also for my top Navbar */
 h2 {
   font-family: Oswald;
   text-transform: uppercase;
@@ -67,7 +71,7 @@ h2 {
 }
 
 /* COLLAPSIBLE MENU */
-
+/* Ensuring the menu appears in the correct position and displays all links correctly. Also removes checkbox icon as a checkbox is used to toggle the list open and closed */
 .menu-content {
   font-family: Lato;
   padding: 0 0 0 0px;
@@ -126,6 +130,7 @@ input:checked~.menu-content {
 }
 
 /* COLLAPSIBLE MENU MEDIA QUERIES */
+/* Ensuring the menu appears in the correct position and displays all links correctly. */
 @media (min-width: 780px) {
   .collapsible-menu {
     display: none;
@@ -150,7 +155,7 @@ input:checked~.menu-content {
   }
 }
 
-/* HOME BUTTON */
+/* Ensuring home button and text is correctly aligned */
 .confirmation-background {
   position: absolute;
   width: 100%;
@@ -163,18 +168,7 @@ input:checked~.menu-content {
   align-items: center;
 }
 
-.confirmation-text {
-  font-family: Oswald;
-  position: absolute;
-  text-align: center;
-  top: 20vh;
-  width: 100%;
-  color: rgb(255, 255, 255);
-  font-size: x-large;
-  font-weight: 900;
-  text-shadow: 0 0 10px black;
-}
-
+/* Sets styling and position of 'Home' button */
 .home-button {
   border: solid 4px white;
   border-radius: 25px;
@@ -193,7 +187,20 @@ input:checked~.menu-content {
   cursor: pointer;
 }
 
+.confirmation-text {
+  font-family: Oswald;
+  position: absolute;
+  text-align: center;
+  top: 20vh;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  font-weight: 900;
+  text-shadow: 0 0 10px black;
+}
+
 /* FOOTER ELEMENTS BELOW */
+/* Spacing between Footer text and respective icon. Also styling on hover of link + positioning of links and copyright text */
 span {
   padding-right: 7.5px;
 }
