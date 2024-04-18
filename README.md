@@ -99,16 +99,23 @@ This website is for my Milestone 1 project in my Web Development course with Cod
 -   Images used have been scaled down in order to reduce load times. Original photos are 25-50% higher resolution than the ones used in the website. Also converted image type to .webp which helps speed up loading time.
 -   Deferred loading of AwesomeFont script using **async** which increases loading speed of the website.
 -   Preloaded images as a priority to further reduce load times.
--   Use of Chrome's built in Lighthouse feature to check performance of each page ensuring over 95% performance on all pages on Desktop, and 85% on Mobile (Gallery page is lower performance due to large videos being embedded). 
 -   "Lazy" loading of images on Gallery page to ensure high performance.
+-   Use of Chrome's built in Lighthouse feature to check performance of each page ensuring over 95% performance on all pages on Desktop, and over 85% on Mobile (Gallery page is lower performance due to large videos being embedded). 
+    - Lightouse Results:
+        -   Home page: [Desktop](/lighthouse/home-results.png) - [Mobile](/lighthouse/home-results(mobile).png)
+        -   Cafe page: [Desktop](/lighthouse/cafe-results.png) - [Mobile](/lighthouse/cafe-results(mobile).png)
+        -   Booking page: [Desktop](/lighthouse/booking-results.png) - [Mobile](/lighthouse/booking-results(mobile).png)
+        -   Confirmation page: [Desktop](/lighthouse/confirmation-results.png) - [Mobile](/lighthouse/confirmation-results(mobile).png)
+        -   Gallery page: [Desktop](/lighthouse/gallery-results.png) - [Mobile](/lighthouse/gallery-results(mobile).png)
+
 
 ### Code Testing using W3 Validation Service for [HTML](https://validator.w3.org/#validate_by_input) and [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
--   #### Home Page: [HTML](/Code-Validation/index.html.png) - [CSS](/Code-Validation/style.css.png)
--   #### Cafe Home Page: [HTML](/Code-Validation/cafe.html.png) - [CSS](/Code-Validation/cafe-styles.css.png)
--   #### Cafe Booking Page: [HTML](/Code-Validation/cafe-booking.html.png) - [CSS](/Code-Validation/booking-styles.css.png)
--   #### Cafe Booking Confirmation Page: [HTML](/Code-Validation/confirmation.html.png) - [CSS](/Code-Validation/confirmation-styles.css.png)
--   #### Gallery Page: [HTML](/Code-Validation/gallery.html.png) - [CSS](/Code-Validation/gallery-styles.css.png)
+-   #### Home Page: [HTML](/code-validation/index.html.png) - [CSS](/code-validation/style.css.png)
+-   #### Cafe Home Page: [HTML](/code-validation/cafe.html.png) - [CSS](/code-validation/cafe-styles.css.png)
+-   #### Cafe Booking Page: [HTML](/code-validation/cafe-booking.html.png) - [CSS](/code-validation/booking-styles.css.png)
+-   #### Cafe Booking Confirmation Page: [HTML](/code-validation/confirmation.html.png) - [CSS](/code-validation/confirmation-styles.css.png)
+-   #### Gallery Page: [HTML](/code-validation/gallery.html.png) - [CSS](/code-validation/gallery-styles.css.png)
 
 ### Known Bugs
 
